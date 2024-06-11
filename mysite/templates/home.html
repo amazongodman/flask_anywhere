@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>朝顔の成長予測App</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <h1 class="neon-text">朝顔の成長予測App</h1>
+    <a href="{{ url_for('predict') }}" class="btn neon-button">予測ページへ</a>
+  </div>
+
+
+</body>
+</html>
