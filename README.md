@@ -7,15 +7,16 @@ pasting from consoles, and writing your own web applications.
 
 
 
-
 https://blog.codecamp.jp/programming-free-server-1  
 https://qiita.com/probabilityhill/items/678f77dc96ccad47c401#%E5%8F%82%E8%80%83  
 
+githubにpython anwereのコンソールから
 
 git init  
-xxxxxxxxxxxxxxxxxxxxxxxxxx
+git remote add origin https://amazongodman:github_pat_11Axxxxxxx@github.com/amazongodman/flask_anywhere.git
 git add .  
 git commit -m "aa"  
 git push origin main  
 
 https://www.pythonanywhere.com/user/ringa/
+
